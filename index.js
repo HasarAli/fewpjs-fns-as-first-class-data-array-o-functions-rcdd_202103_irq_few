@@ -1,4 +1,4 @@
-function nameDog(dogName, dogBreed) {
+function name(dogName, dogBreed) {
   return `${dogName} the ${dogBreed}`;
 }
 
@@ -9,7 +9,5 @@ function doWithDog(activity, name) {
 }
 
 function wakeDog(dogName, dogBreed) {
-  const str = `Wake ${nameDog(dogName, dogBreed)}`;
-  console.log(str);
-  return str;
+  return doWithDog('Wake', name(dogName, dogBreed));
 }
