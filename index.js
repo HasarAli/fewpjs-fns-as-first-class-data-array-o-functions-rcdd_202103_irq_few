@@ -15,3 +15,15 @@ function wakeDog(dogName, dogBreed) {
 function leashDog(dogName, dogBreed) {
   return doWithDog('Leash', name(dogName, dogBreed));
 }
+
+function walkToPark(dogName, dogBreed) {
+  return doWithDog('Walk to the park with', name(dogName, dogBreed));
+}
+
+function throwFrisbee(dogName, dogBreed) {
+  return doWithDog('Throw the frisbee for', name(dogName, dogBreed));
+}
+
+function unleashDog(dogName, dogBreed) {
+  return doWithDog('Unleash', name(dogName, dogBreed));
+}
