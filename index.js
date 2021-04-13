@@ -11,3 +11,7 @@ function doWithDog(activity, name) {
 function wakeDog(dogName, dogBreed) {
   return doWithDog('Wake', name(dogName, dogBreed));
 }
+
+function leashDog(dogName, dogBreed) {
+  return doWithDog('Leash', name(dogName, dogBreed));
+}
