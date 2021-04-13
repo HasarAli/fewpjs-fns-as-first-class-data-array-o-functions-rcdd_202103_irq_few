@@ -27,3 +27,10 @@ function throwFrisbee(dogName, dogBreed) {
 function unleashDog(dogName, dogBreed) {
   return doWithDog('Unleash', name(dogName, dogBreed));
 }
+
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, unleashDog];
+
+function exerciseDog(dogName, dogBreed) {
+  const responses = [];
+  routine.forEach(function => responses.push(function(dogName, dogBreed)));
+}
