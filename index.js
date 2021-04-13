@@ -1,2 +1,2 @@
-function wakeDog(dogName, dogBreed) {
+function makeName(dogName, dogBreed) {
 }
