@@ -1,1 +1,2 @@
-function wakeDog
+function wakeDog(dogName, dogBreed) {
+}
